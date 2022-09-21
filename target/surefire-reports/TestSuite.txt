@@ -1,0 +1,52 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 69.803 s <<< FAILURE! - in TestSuite
+loginPage(com.mystore.testcases.Tc1loginpage)  Time elapsed: 2.497 s  <<< FAILURE!
+org.openqa.selenium.UnhandledAlertException: 
+unexpected alert open: {Alert text : User or Password is not valid}
+  (Session info: chrome=105.0.5195.102): User or Password is not valid
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-ADCV5S3', ip: '192.168.29.221', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d767a380352a0faedc693affab911689, getTitle {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49891}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49891/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d767a380352a0faedc693affab911689
+	at com.mystore.testcases.Tc1loginpage.loginPage(Tc1loginpage.java:26)
+
+addNewCust(com.mystore.testcases.Tc3AddNewCustomer)  Time elapsed: 1.024 s  <<< FAILURE!
+org.openqa.selenium.UnhandledAlertException: 
+unexpected alert open: {Alert text : User or Password is not valid}
+  (Session info: chrome=105.0.5195.102): User or Password is not valid
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-ADCV5S3', ip: '192.168.29.221', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e5b2488de1b5b244f9dd661f07f395c8, findElement {using=link text, value=New Customer}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49962}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49962/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e5b2488de1b5b244f9dd661f07f395c8
+	at com.mystore.testcases.Tc3AddNewCustomer.addNewCust(Tc3AddNewCustomer.java:28)
+
+editCust(com.mystore.testcases.Tc4EditCustomer)  Time elapsed: 2.18 s  <<< FAILURE!
+org.openqa.selenium.UnhandledAlertException: 
+unexpected alert open: {Alert text : User or Password is not valid}
+  (Session info: chrome=105.0.5195.102): User or Password is not valid
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-ADCV5S3', ip: '192.168.29.221', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cb2c91e5d91717b312256f33c5cba3c5, findElement {using=link text, value=Edit Customer}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50036}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50036/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cb2c91e5d91717b312256f33c5cba3c5
+	at com.mystore.testcases.Tc4EditCustomer.editCust(Tc4EditCustomer.java:26)
+
+deleteCust(com.mystore.testcases.Tc5DeleteCustomer)  Time elapsed: 2.031 s  <<< FAILURE!
+org.openqa.selenium.UnhandledAlertException: 
+unexpected alert open: {Alert text : User or Password is not valid}
+  (Session info: chrome=105.0.5195.102): User or Password is not valid
+Build info: version: '4.2.2', revision: '683ccb65d6'
+System info: host: 'DESKTOP-ADCV5S3', ip: '192.168.29.221', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [27b36d22554528fc5450c76d87a23810, findElement {using=link text, value=Delete Customer}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50109}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50109/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 27b36d22554528fc5450c76d87a23810
+	at com.mystore.testcases.Tc5DeleteCustomer.deleteCust(Tc5DeleteCustomer.java:25)
+

@@ -1,0 +1,8 @@
+com\mystore\utility\XLUtils.class
+com\mystore\base\BaseClass.class
+com\mystore\pageobject\DeleteCustomer.class
+com\mystore\pageobject\AddCustomer.class
+com\mystore\pageobject\LoginPage.class
+com\mystore\utility\Reporting.class
+com\mystore\pageobject\EditCustomer.class
+com\mystore\utility\ReadConfig.class

@@ -1,0 +1,5 @@
+com\mystore\testcases\Tc3AddNewCustomer.class
+com\mystore\testcases\Tc5DeleteCustomer.class
+com\mystore\testcases\Tc1loginpage.class
+com\mystore\testcases\Tc4EditCustomer.class
+com\mystore\testcases\Tc2loginpage.class
